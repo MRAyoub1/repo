@@ -18,7 +18,7 @@ router.route('/login')
 
 // register
 router.route('/register')
-    .post(uploades.single('avatar'), UsersContoler.Register)
+    .post(UsersContoler.Register)
 
 
 

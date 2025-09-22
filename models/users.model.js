@@ -22,10 +22,8 @@ const usersSchema = new mongoose.Schema({
     Token: {
         type: String,
   },
-    avatar: {
-        type: String,
-        default: 'uploades/Pro.png'
-    }
+
+
 
 
 });
